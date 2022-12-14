@@ -5,8 +5,10 @@ In Outlast, players must use quick reflexes and precise controls to navigate a r
 # Game Development 
 I developed this game using Unity and C#. I created all the 3D models available in the game using Blender. This includes the Hindi text obstacles and other obstacles like spikes, drums, and cement blocks. The buff and debuff effects are also implemented. The Buff adds invincibility and the debuff reduces the weight of the player hence increasing the current speed for time being. I programmed the whole game on my own.
 
+[3D models](https://www.artstation.com/artwork/X1R3za)
+
 # Scripts
 [tree/master/Assets/scripts](https://github.com/kinshuk122/Outlast_3D_Endless_Runner/tree/master/Assets/scripts)
 
 
-[2D models](https://www.artstation.com/artwork/LeqWP0)
+
