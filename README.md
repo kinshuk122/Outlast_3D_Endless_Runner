@@ -7,4 +7,6 @@ I developed this game using Unity and C#. I created all the 3D models available 
 
 # Scripts
 [tree/master/Assets/scripts](https://github.com/kinshuk122/Outlast_3D_Endless_Runner/tree/master/Assets/scripts)
-[3D models](https://www.artstation.com/artwork/X1R3za)
+
+
+[2D models](https://www.artstation.com/artwork/LeqWP0)
