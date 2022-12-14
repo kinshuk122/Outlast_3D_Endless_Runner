@@ -1,0 +1,553 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670762806295384, "dur":613, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762806296004, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670762806296052, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670762806296066, "dur":390, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670762806296485, "dur":453, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762806296938, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020161, "dur":95, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020256, "dur":105, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020361, "dur":49, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020410, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020430, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020435, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020447, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020448, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020464, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020467, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020474, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020475, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020481, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020482, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020487, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020488, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020494, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020495, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020500, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020501, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020506, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020507, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020511, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020513, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020518, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020536, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807020545, "dur":952, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670762806296522, "dur":423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806296947, "dur":1354, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806298309, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670762806298316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806299439, "dur":265, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670762806299707, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670762806299728, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806299862, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670762806302220, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1670762806302413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806302667, "dur":4542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1670762806307222, "dur":18665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806325894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806326097, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806329446, "dur":26233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806355682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806355686, "dur":33741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806389440, "dur":50216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806439662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806439672, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806440409, "dur":35663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806476078, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806476089, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806477631, "dur":17601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806495238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806495250, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806496178, "dur":35761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806531942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806531948, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806532450, "dur":15529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806547982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806547987, "dur":30860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806578862, "dur":28543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806607408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806607414, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806607894, "dur":22361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806630261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806630271, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806630905, "dur":21110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806652022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806652034, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806653318, "dur":53427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806706752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806706762, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806707387, "dur":87383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806794773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806794781, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806795323, "dur":33662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806828992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806829002, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806829654, "dur":167636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806997294, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670762806997303, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670762806997953, "dur":22206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806296567, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806296958, "dur":1348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806298309, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1670762806298360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806309735, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1670762806310615, "dur":16053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806326694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806328980, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806329701, "dur":79101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806408810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806408820, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806411969, "dur":86740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806498717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806498729, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806500689, "dur":77059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806577753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806577762, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806580276, "dur":72359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806652642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806652652, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806654138, "dur":27677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806681821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806681830, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806682712, "dur":68056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806750774, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806750786, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806751637, "dur":157118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806908761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670762806908769, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670762806910854, "dur":109325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806296561, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806296951, "dur":1354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806298314, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670762806298531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806300098, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1670762806302301, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670762806302620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806302718, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670762806305127, "dur":50153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806355284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806355289, "dur":33859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806389162, "dur":55537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806444703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806444712, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806446635, "dur":27141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806473783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806473793, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806474914, "dur":48561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806523481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806523511, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806527822, "dur":18046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806545873, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806545907, "dur":33197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806579115, "dur":42943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806622066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806622077, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806622956, "dur":19958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806642921, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806642934, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806643574, "dur":19085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806662666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806662678, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806663611, "dur":82042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806745660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806745670, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806746968, "dur":179136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806926109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670762806926117, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670762806928315, "dur":91849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806296603, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806296964, "dur":1343, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806298309, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670762806298583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806300106, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670762806302166, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670762806302360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806302704, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670762806304104, "dur":32137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670762806336248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806336257, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670762806338205, "dur":16009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806354221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806354231, "dur":35125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806389377, "dur":33404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806422785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806422793, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806425172, "dur":46963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806472141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806472152, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806474768, "dur":18379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806493154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806493165, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806493836, "dur":22264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806516105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806516117, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806517107, "dur":28768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806545908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806545914, "dur":33060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806578991, "dur":113853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806692850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806692860, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806693727, "dur":25930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806719661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806719667, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806720189, "dur":151854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806872051, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806872063, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670762806873214, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670762806873233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806873239, "dur":16812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670762806890066, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670762806890086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806890091, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670762806890826, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670762806890838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806890842, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670762806892071, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670762806892108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670762806892113, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670762806893193, "dur":126964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806296631, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806296970, "dur":1340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806298311, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1670762806298364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806301145, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1670762806302372, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1670762806302410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806302597, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1670762806304254, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1670762806304278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806304376, "dur":26185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1670762806330576, "dur":19169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806349752, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806349761, "dur":39479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806389254, "dur":61252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806450512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806450521, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806451368, "dur":20360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806471736, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806471747, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806474841, "dur":39122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806513968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806513976, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806514643, "dur":43961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806558610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806558619, "dur":20278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806578910, "dur":18790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806597704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806597711, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806598522, "dur":64555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806663081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806663087, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806664079, "dur":241971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806906055, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670762806906064, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670762806908738, "dur":111438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806296662, "dur":315, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806296977, "dur":1337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806298315, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1670762806298573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806300112, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1670762806302766, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1670762806302786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806302791, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1670762806303608, "dur":180550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806484164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806484173, "dur":35757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806519951, "dur":26316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806546268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806546272, "dur":32564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806578853, "dur":43782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806622641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806622650, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806623286, "dur":29760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806653050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806653057, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806653928, "dur":21241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806675176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806675186, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806675815, "dur":146546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806822369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762806822380, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762806823878, "dur":192825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762807016708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670762807016716, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670762807020123, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1670762807020125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806296698, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806296981, "dur":1322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806298309, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1670762806298376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806307535, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1670762806308108, "dur":30529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806338643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806338653, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806339406, "dur":16420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806355828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806355832, "dur":33479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806389325, "dur":19756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806409085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806409090, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806411028, "dur":44298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806455333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806455344, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806456342, "dur":21686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806478033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806478040, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806478661, "dur":46051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806524718, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806524729, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806528076, "dur":78930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806607013, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806607051, "dur":4680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806611745, "dur":19365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806631114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806631141, "dur":16457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806647614, "dur":20668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806668289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806668300, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806668986, "dur":47400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806716414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806716423, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806717050, "dur":34862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806751915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806751923, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806752540, "dur":134741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806887285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806887294, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670762806889005, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670762806889025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806889032, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670762806890461, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1670762806890477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806890483, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1670762806891378, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1670762806891392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806891397, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1670762806892053, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1670762806892065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806892069, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1670762806892860, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1670762806892874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670762806892878, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1670762806893499, "dur":126653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806296721, "dur":265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806296987, "dur":1315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806298309, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1670762806298545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806300100, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1670762806302130, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1670762806302152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806304783, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1670762806307326, "dur":18968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806326300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806328969, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806329683, "dur":20368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806350057, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806350067, "dur":42011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806392106, "dur":126962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806519075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806519087, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806521580, "dur":20185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806541772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806541782, "dur":38306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806580102, "dur":91713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806671839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806671847, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806674402, "dur":171052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806845460, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806845471, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806846646, "dur":41462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806888113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806888122, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670762806888772, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670762806888789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806888794, "dur":2759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670762806891587, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670762806891632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806891637, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670762806892953, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1670762806893061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670762806893065, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1670762806893767, "dur":126388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806296755, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806296992, "dur":1324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806298316, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1670762806298364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806301761, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1670762806303136, "dur":83363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806386503, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806386537, "dur":7118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806393672, "dur":26465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806420144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806420154, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806420802, "dur":20188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806440996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806441150, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806442955, "dur":34635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806477596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806477607, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806479064, "dur":32016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806511083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806511235, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806513440, "dur":17871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806531317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806531328, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806531927, "dur":15409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806547339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806547343, "dur":31570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806578925, "dur":34605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806613536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806613546, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806614566, "dur":39971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806654543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806654575, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806655153, "dur":15633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806670793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806670804, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806671442, "dur":79468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806750913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806750919, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806751723, "dur":37140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806788870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806788881, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806789571, "dur":110538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806900113, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670762806900122, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670762806900760, "dur":119420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806296783, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806296998, "dur":1328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806298326, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1670762806298370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806305849, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1670762806307410, "dur":32979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806340393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806340401, "dur":48482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806388911, "dur":22296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806411211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806411219, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806412240, "dur":38641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806450886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806450895, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806451543, "dur":33936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806485485, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806485497, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806487477, "dur":23234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806510719, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806510732, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806511826, "dur":21357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806533189, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806533199, "dur":42769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806575986, "dur":19996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806595989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806596000, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806596993, "dur":58654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806655651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806655659, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806656284, "dur":199972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806856263, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806856274, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670762806857205, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1670762806857282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806857600, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1670762806858203, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1670762806858218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806858236, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1670762806859353, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1670762806859366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806859371, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1670762806860009, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1670762806860026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806860030, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1670762806861929, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1670762806861940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806861946, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1670762806862936, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1670762806862951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670762806862957, "dur":35304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1670762806898277, "dur":121891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806296810, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806297003, "dur":1315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806298319, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1670762806298508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806300125, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1670762806303060, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1670762806303112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806303118, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1670762806304017, "dur":27417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1670762806331438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806331445, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1670762806332972, "dur":21242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806354221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806354231, "dur":45845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806400092, "dur":42984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806443079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806443087, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806443760, "dur":20762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806464529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806464539, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806466169, "dur":20543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806486718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806486748, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806487279, "dur":23799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806511081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806511118, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806512397, "dur":21267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806533667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806533672, "dur":46132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806579815, "dur":51936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806631757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806631766, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806632668, "dur":48191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806680864, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806680874, "dur":584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806681468, "dur":91218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806772692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806772726, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806773392, "dur":100133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806873527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806873533, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670762806875003, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1670762806875019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806875024, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1670762806877038, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1670762806877053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806877059, "dur":5687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1670762806882763, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1670762806882780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806882789, "dur":2781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1670762806885593, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1670762806885729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806885830, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1670762806886784, "dur":10866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1670762806897657, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670762806897669, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1670762806898453, "dur":121718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806296836, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806297010, "dur":1299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806298313, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1670762806298366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806302239, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1670762806303117, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806303691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806304793, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806307837, "dur":32803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806340643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806340671, "dur":48851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806389531, "dur":121356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806510895, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806510906, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806514156, "dur":25093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806539255, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806539266, "dur":40086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806579364, "dur":20924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806600293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806600301, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806600813, "dur":191196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806792015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806792025, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806794553, "dur":98394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806892950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670762806892957, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/PortFolio/Finished Game/OutLast 3D runner/Car_Sim_4_lane_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670762806894348, "dur":125817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670762807022952, "dur":1609, "ph":"X", "name": "ProfilerWriteOutput" }
+,
